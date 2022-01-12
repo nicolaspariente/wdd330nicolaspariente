@@ -10,6 +10,7 @@ function create_links(element) {
   let li_element = document.createElement("li");
   let a = document.createElement("a");
   a.setAttribute("href", element.url);
+  a.href = element.url;
   a.innerHTML = element.label;
   console.log(a);
   li_element.appendChild(a);
