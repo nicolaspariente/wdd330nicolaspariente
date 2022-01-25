@@ -1,0 +1,14 @@
+button {
+  padding: 5px;
+  margin-top: 20px;
+}
+textarea {
+  display: block;
+  margin-top: 20px;
+}
+#button-one {
+  display: block;
+}
+section {
+  margin-top: 20px;
+}
