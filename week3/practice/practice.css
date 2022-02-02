@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  justify-content: center;
+}
+
+.container div {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+.color {
+  background-color: rgb(71, 11, 236);
+}
+img {
+  margin-top: 50px;
+  width: 150px;
+}
